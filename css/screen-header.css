@@ -1,0 +1,14 @@
+.screen-header {
+  display: flex;
+  padding: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+.screen-header__tilte {
+  font-size: xx-large;
+  font-weight: bold;
+}
+.screen-header__icons span {
+  margin-left: 25px;
+  cursor: pointer;
+}

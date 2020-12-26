@@ -1,0 +1,16 @@
+#friends-display-link {
+  color: gray;
+  text-align: center;
+  display: block;
+  background-color: rgb(243, 241, 241);
+  padding: 10px 0px;
+  border-radius: 10px;
+}
+#friends-display-link i {
+  padding: 0px 10px;
+  color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+#friends-display-link span {
+  cursor: pointer;
+}
