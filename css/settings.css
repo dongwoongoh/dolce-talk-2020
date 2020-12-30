@@ -1,0 +1,46 @@
+.setting-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 25px 25px 25px;
+}
+.setting-header_column h1 {
+  font-size: x-large;
+  font-weight: 600;
+}
+.setting-header_column:first-child {
+  margin-right: auto;
+}
+.setting-header_column:last-child {
+  margin-left: auto;
+}
+.settings {
+  margin: 25px;
+}
+.settings-letterpress__list {
+  padding: 20px 0px;
+  border-bottom: var(--recommended-border);
+}
+.settings-letterpress__list i {
+  margin-right: 15px;
+  font-size: x-large;
+  opacity: 0.8;
+}
+.settings-letterpress__list-version {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  justify-content: space-between;
+}
+.settings-letterpress__list-version-2 span {
+  font-size: 14px;
+  color: var(--font-color);
+}
+.settings-image_dol {
+  margin-top: 35px;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  opacity: 0.8;
+}

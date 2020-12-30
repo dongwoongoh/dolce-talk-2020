@@ -7,6 +7,7 @@
   width: 80px;
   height: 80px;
   border-radius: 25px;
+  margin: 20px;
 }
 .user-component__title {
   font-weight: bold;
@@ -16,4 +17,69 @@
   margin-top: 3px;
   color: rgba(0, 0, 0, 0.7);
   font-size: 13px;
+}
+.user-component__avatar-sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+  margin: 20px;
+}
+.user-component__title-sm {
+  font-size: 15px;
+  font-weight: 600;
+}
+.user-component__subtitle-sm {
+  margin-top: 3px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 11px;
+}
+.user-component {
+  justify-content: space-between;
+}
+.fa-gift {
+  margin-right: 30px;
+  cursor: pointer;
+}
+.friends-screen__channel-header {
+  border-top: 1px solid rgb(243, 241, 241);
+  margin: 10px 0;
+  padding: 10px 30px;
+}
+.fa-chevron-up {
+  margin-left: 5px;
+}
+.friends-screen__channel-name {
+  font-weight: 600;
+  font-size: small;
+  color: rgba(0, 0, 0, 0.5);
+}
+.friends-screen__channel-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-component__avatar-chats {
+  width: 70px;
+  height: 70px;
+  border-radius: 25px;
+  margin: 20px;
+}
+.fa-clock {
+  margin: 0px 10px;
+  padding: 0px 10px 10px 10px;
+  font-size: 11px;
+  opacity: 0.6;
+}
+.user-component__subtitle-sm-icon {
+  position: relative;
+}
+.user-component__avatar-sm-find {
+  margin: 0px;
+  padding: 0px;
+  width: 80px;
+  height: 80px;
+  border-radius: 15px;
+}
+.fa-comment-alt {
+  margin-right: 25px;
 }

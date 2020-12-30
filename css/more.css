@@ -1,0 +1,80 @@
+.more-component__call {
+  display: flex;
+}
+.fa-exclamation-circle {
+  margin-left: 5px;
+}
+.more-letterpress {
+  display: flex;
+  margin: 50px 25px 0px 25px;
+  flex-direction: column;
+  border-bottom: var(--recommended-border);
+  padding: 0 0 60px 0;
+}
+.more-letterpress__box-first {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 25px 0;
+}
+.more-letterpress__box-second {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.more-icons {
+  color: rgba(0, 0, 0, 0.8);
+  transition: color 0.3s ease-in-out;
+}
+.more-icons:hover {
+  color: var(--font-color);
+  cursor: pointer;
+}
+.more-letterpress-weather__main-text {
+  position: relative;
+  font-size: 30px;
+  margin-left: 10px;
+}
+.more-letterpress-weather__main-deg {
+  height: 3px;
+  width: 3px;
+  border-radius: 1.5px;
+  background-color: black;
+  position: absolute;
+  left: 120px;
+}
+.more-letterpress-weather {
+  display: flex;
+  margin: 10px 25px 25px 25px;
+}
+.more-letterpress-weather__main {
+  display: flex;
+}
+.more-letterpress-weather__header-1 {
+  display: flex;
+}
+.more-letterpress-weather__main {
+  display: flex;
+  margin-top: 20px;
+}
+.more-letterpress-weather__icons-dog {
+  width: 70px;
+  height: 60px;
+}
+.more-letterpress-weather__header-2 {
+  display: flex;
+  margin: 0px 25px;
+  justify-content: space-between;
+}
+.more-letterpress-weather__icons {
+  display: flex;
+  cursor: pointer;
+}
+.more-letterpress-weather__icons-dog {
+  transition: all 0.3s ease-in-out;
+}
+.more-letterpress-weather__icons-dog:hover {
+  transform: rotate(360deg);
+}
+.nav__link-more i {
+  color: var(--font-color);
+}

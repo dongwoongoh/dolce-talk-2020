@@ -39,3 +39,30 @@
   position: absolute;
   left: 32px;
 }
+.nav__notification-chats {
+  color: white;
+  background-color: tomato;
+  text-align: center;
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  position: absolute;
+  top: 20px;
+  left: 40px;
+}
+.screen-header__icons-find {
+  position: relative;
+}
+.nav__notification-find {
+  height: 6px;
+  width: 6px;
+  border-radius: 3px;
+  background-color: tomato;
+  position: absolute;
+  right: -3px;
+  top: -4px;
+}
