@@ -72,8 +72,25 @@
   top: 60px;
   right: 12px;
   cursor: pointer;
+  will-change: transform;
+  animation: userHeartBeat 1s linear infinite;
 }
 .open-post__column-second span {
   margin-left: 3px;
   color: white;
+}
+
+@keyframes userHeartBeat {
+  0% {
+    color: none;
+    transform: scale(0);
+  }
+  50% {
+    color: white;
+    transform: scale(1.1);
+  }
+  100% {
+    color: none;
+    transform: scale(0);
+  }
 }

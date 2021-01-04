@@ -7,14 +7,40 @@
   padding: 20px 50px;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
+
+@keyframes navAni {
+  from {
+    transform: translateY(80px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
 .nav__list {
   display: flex;
   justify-content: space-between;
+  animation: navAni 0.6s ease-in-out;
 }
 .nav__link {
   color: rgb(80, 79, 79);
   position: relative;
 }
+
+@keyframes notificationAni {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 .nav__notification {
   color: white;
   background-color: tomato;
@@ -29,6 +55,7 @@
   position: absolute;
   left: 20px;
   top: -20px;
+  animation: notificationAni 1s ease-in-out infinite;
 }
 .nav__ellipsis__notification {
   display: flex;

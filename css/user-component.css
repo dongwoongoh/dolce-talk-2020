@@ -24,6 +24,24 @@
   border-radius: 25px;
   margin: 20px;
 }
+
+@keyframes avatarSmUpAndDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.user-component__avatar-sm:hover {
+  animation: avatarSmUpAndDown 0.6s ease-in-out;
+  cursor: pointer;
+}
+
 .user-component__title-sm {
   font-size: 15px;
   font-weight: 600;

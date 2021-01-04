@@ -1,0 +1,40 @@
+#no-mobile {
+  position: absolute;
+  z-index: 99;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(163, 162, 162);
+  color: white;
+  display: flex;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+}
+
+@media screen and (max-width: 550px) {
+  #no-mobile {
+    display: none;
+  }
+}
+
+@keyframes twinkleScreenFont {
+  0% {
+    transform: scale(1);
+    color: white;
+  }
+  50% {
+    transform: scale(1.1);
+    color: gold;
+  }
+  100% {
+    transform: scale(1);
+    color: none;
+  }
+}
+
+#no-mobile abbr {
+  cursor: help;
+  will-change: transform;
+  animation: twinkleScreenFont 1s ease-in-out infinite;
+}

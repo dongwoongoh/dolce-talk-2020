@@ -17,3 +17,16 @@
   text-decoration: none;
   color: inherit;
 }
+
+@keyframes aniCog {
+  from {
+    transform: rotateZ(0);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.fa-cog:hover {
+  animation: aniCog 1s linear infinite;
+}

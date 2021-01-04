@@ -11,8 +11,13 @@
 .setting-header_column:first-child {
   margin-right: auto;
 }
+.setting-header_column:nth-child(2) {
+  text-align: center;
+}
 .setting-header_column:last-child {
   margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
 }
 .settings {
   margin: 25px;
